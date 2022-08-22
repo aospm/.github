@@ -20,6 +20,18 @@ If your device isn't yet supported but has an SDM845 or similar SoC, bringing up
 
 TBD: porting guide? In the meantime, the wiki has some useful resources: https://github.com/aospm/android_device_generic_sdm845/wiki
 
+## The repos
+
+* https://github.com/aospm/android_device_generic_sdm845
+  * Primary device repo, contains all necessary abstractions to support SDM845 and similar devices with mostly shared definitions
+* https://github.com/aospm/qrild
+  * Work in progress Radio HAL, currently a big mess, used with associated "rild" feature branch in d/g/s
+* https://github.com/aospm/external_vibrator-ff
+  * Generic vibrator HAL using forcefeedback API, try it on your devboard by attaching a game controller with rumble!
+* https://github.com/aospm/android-lights-hal
+  * New lights HAL, written by SoMainline, supports generic backlights and LEDs
+ 
+
 ## Current development
 
  * AIDL Lights HAL
