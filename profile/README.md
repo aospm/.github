@@ -5,6 +5,10 @@ Whilst the majority of upstream AOSP testing is done with dev boards like the Th
 be prohibitive for hobbyist developers, and lack useful features like modem/GPS, haptics, batteries, etc... Phones with
 the same SDM845 SoC are easily obtainable and with some soldering to expose UART can become just as effective dev devices.
 
+## Status
+
+There currently isn't active development on this project, however related work is still underway. Feel free to drop a message in #aosp-developers on OFTC if you'd like to get involved!
+
 ## Supported phones
 
  * Xiaomi PocoPhone F1
